@@ -102,6 +102,10 @@ This copies the hook into `~/.claude/hooks/`, saves the URL and token, registers
 `~/.claude/settings.json` (after backing it up, and without touching your other hooks), turns on
 tmux passthrough if you use tmux, and checks it can reach the beacon.
 
+Run it yourself in a terminal. If you ask Claude Code to run it for you, auto mode will likely block
+it, since it edits Claude Code's own settings. Inside a Claude Code session you can prefix it with
+`!` to run it as you.
+
 Add `--name <name>` to choose how this machine is labeled in the apps (say `--name laptop`
 instead of a hostname like `ip-172-31-28-108`). Rerun with just `--name` to change it later.
 
