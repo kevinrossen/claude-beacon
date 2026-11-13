@@ -145,9 +145,7 @@ That's it. 🎉 Start a Claude Code session and watch the green dot appear.
 - **Mark seen** clears the white rim and mutes the amber, but the session stays counted. It's
   still idle, after all. It drops out of the count when it starts working again or ends.
 
-<!-- SCREENSHOT: docs/images/windows-panel.png
-     Windows left-click panel with sections Asking you / Idle / Working. -->
-> 📸 *Screenshot placeholder: Windows session panel*
+<p align="center"><img src="docs/images/windows-panel.png" width="560" alt="The Windows panel above the taskbar: idle and working sessions, with the green and gray tray icons below"></p>
 
 ### Settings
 
