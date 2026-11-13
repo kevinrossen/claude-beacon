@@ -1,0 +1,18 @@
+# The claude-beacon server. From this folder:
+#   cp server.env.example server.env   (then set BEACON_TOKEN)
+#   docker compose up -d
+services:
+  claude-beacon:
+    image: python:3.12-slim
+    container_name: claude-beacon
+    command: ["python", "-u", "/app/beacon.py"]
+    restart: unless-stopped
+    env_file: server.env
+    environment:
+      BEACON_STATE_FILE: /data/state.json
+    ports:
+      # To listen on one address only (e.g. your Tailscale IP): "100.x.y.z:8799:8799"
+      - "8799:8799"
+    volumes:
+      - ./beacon.py:/app/beacon.py:ro
+      - ./data:/data

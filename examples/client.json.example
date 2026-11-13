@@ -1,0 +1,7 @@
+{
+  "url": "http://your-beacon:8799",
+  "token": "replace-with-your-token",
+  "layout": "needs-you+working",
+  "notify": "all",
+  "hideEmpty": false
+}

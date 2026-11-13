@@ -1,0 +1,8 @@
+.build/
+.swiftpm/
+*.env
+!*.env.example
+client.json
+server/data/
+__pycache__/
+.DS_Store
