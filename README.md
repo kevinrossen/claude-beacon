@@ -10,9 +10,7 @@ answer in one place.
 
 > Unofficial. Not affiliated with or endorsed by Anthropic.
 
-<!-- SCREENSHOT: docs/images/hero.png
-     Mac menu bar dots + Windows tray icons side by side, ideally with one amber and one green. -->
-> 📸 *Screenshot placeholder: the menu bar and taskbar indicators*
+<p align="center"><img src="docs/images/menubar-dots.png" width="288" alt="Two dots in the Mac menu bar: gray 2 idle, green 1 working"></p>
 
 ## What you get
 
@@ -26,9 +24,7 @@ answer in one place.
 - **Every machine, one view.** Sessions on your laptop, desktop, home server and cloud VMs all
   report to a single small server, and every computer you sit at shows the same picture.
 
-<!-- SCREENSHOT: docs/images/session-list.png
-     The click-open session list on Mac or the left-click panel on Windows, with a few sessions. -->
-> 📸 *Screenshot placeholder: the session list*
+<p align="center"><img src="docs/images/session-list.png" width="650" alt="The Mac session list: idle and working sessions from homelab, mac and ec2, each with its name, tmux session, project and age"></p>
 
 ## How it works
 
